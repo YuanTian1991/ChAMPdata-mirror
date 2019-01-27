@@ -1,13 +1,13 @@
-\name{EPIC.manifest.pop.hg38}
-\alias{EPIC.manifest.pop.hg38}
+\name{hm450.manifest.pop.hg19}
+\alias{hm450.manifest.pop.hg19}
 \docType{data}
 \title{
-SNP annotation for EPIC array for different population.
+SNP annotation for 450K array for different population. Data is based on hg19.
 }
 \description{
-This dataset is added to do filtering on SNP for EPIC array. Since different population have different SNP probes, this file is included to provide a comprehensive filtering annotation.
+This dataset is added to do filtering on SNP for 450K array. Since different population have different SNP probes, this file is included to provide a comprehensive filtering annotation.
 }
-\usage{data(EPIC.manifest.pop.hg38)}
+\usage{data(hm450.manifest.pop.hg19)}
 \format{
 'data.frame':   866895 obs. of  67 variables:
  $ seqnames        : Factor w/ 26 levels "chr1","chr2",..: 1 1 1 1 1 1 1 1 1 1 ...
@@ -79,6 +79,6 @@ This dataset is added to do filtering on SNP for EPIC array. Since different pop
  $ MASK.snp5.ASW   : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
 }
 \examples{
-data(EPIC.manifest.pop.hg38)
+data(hm450.manifest.pop.hg19)
 }
 \keyword{datasets}

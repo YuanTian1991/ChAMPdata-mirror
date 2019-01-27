@@ -1,13 +1,13 @@
-\name{hm450.manifest.hg38}
-\alias{hm450.manifest.hg38}
+\name{hm450.manifest.hg19}
+\alias{hm450.manifest.hg19}
 \docType{data}
 \title{
 SNP annotation for 450K array.
 }
 \description{
-This dataset is added to do filtering on SNP for 450K array.
+This dataset is added to do filtering on SNP for 450K array. Data is based on hg19
 }
-\usage{data(hm450.manifest.hg38)}
+\usage{data(hm450.manifest.hg19)}
 \format{
 'data.frame':   485577 obs. of  41 variables:
  $ seqnames                : Factor w/ 26 levels "chr1","chr2",..: 1 1 1 1 1 1 1 1 1 1 ...
@@ -53,6 +53,6 @@ This dataset is added to do filtering on SNP for 450K array.
  $ MASK.general            : logi  TRUE TRUE TRUE TRUE TRUE TRUE ...
 }
 \examples{
-data(hm450.manifest.hg38)
+data(hm450.manifest.hg19)
 }
 \keyword{datasets}

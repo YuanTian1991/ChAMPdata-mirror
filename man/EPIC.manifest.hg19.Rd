@@ -1,13 +1,13 @@
-\name{EPIC.manifest.hg38}
-\alias{EPIC.manifest.hg38}
+\name{EPIC.manifest.hg19}
+\alias{EPIC.manifest.hg19}
 \docType{data}
 \title{
 SNP annotation for EPIC array.
 }
 \description{
-This dataset is added to do filtering on SNP for EPIC array.
+This dataset is added to do filtering on SNP for EPIC array. Data is based on hg19.
 }
-\usage{data(EPIC.manifest.hg38)}
+\usage{data(EPIC.manifest.hg19)}
 \format{
 'data.frame':   866895 obs. of  41 variables:
 $ seqnames                : Factor w/ 26 levels "chr1","chr2",..: 1 1 1 1 1 1 1 1 1 1 ...
@@ -53,6 +53,6 @@ $ MASK.extBase            : logi  FALSE FALSE FALSE FALSE FALSE FALSE ...
 $ MASK.general            : logi  TRUE TRUE TRUE TRUE TRUE TRUE ...
 }
 \examples{
-data(EPIC.manifest.hg38)
+data(EPIC.manifest.hg19)
 }
 \keyword{datasets}
